@@ -62,7 +62,12 @@ const Home = () => {
             data-aos-duration="2000"
             data-aos-mirror="true"
           >
-            <img src={rajpic} alt="image not found" loading="lazy" />
+            <img
+              src={rajpic}
+              alt="image not found"
+              className=""
+              loading="lazy"
+            />
           </div>
         </div>
       </div>

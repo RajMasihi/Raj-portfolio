@@ -127,18 +127,30 @@ transition:transform 0.5s linear,color 0.5s linear;
   padding:1%;
   margin:1%;
 }
+.logo_menu{
+  font-size: 100%;
+  display: none;
+}
 
 
 @media only screen and (max-width: 600px) {
   #home{
     padding-top: 10%;
+    padding-right: 0%;
   }
 
   .img_divh img{
     height:100%;
-  width:100%;
+  width:90%;
+  padding-left:10%;
    filter: drop-shadow(0px 0px 100px rgb(84, 46, 235));
   
+  }
+  .text_image{
+    margin-top: 10%;
+  }
+  #home h2{
+    font-size: small;
   }
   .social_icon{
   height:100%;
@@ -149,6 +161,12 @@ transition:transform 0.5s linear,color 0.5s linear;
   font-size: small;
   display:none;
 }
-
+.logo_menu{
+  font-size: large;
+  display: block;
+}
+.navbar{
+  display:inline-flex;
+}
 
 }

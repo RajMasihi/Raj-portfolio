@@ -18,7 +18,7 @@ const About_me = () => {
 
           <div className="" data-aos="fade-right" data-aos-duration="1000">
             <h3>Hey There! I'm Raj</h3>
-            <p className="fs-4 text-lg-start ">
+            <p align="justify" className="fs-4 text-lg-start ">
               I am a dedicated and passionate aspiring Full Stack Developer with
               a strong background in building robust and scalable web
               applications using Python, Django, and React. My journey into
