@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -27,7 +28,7 @@ function App() {
       <div className="container-fluid">
         <Navbar showmenu={handle_menu_div}></Navbar>
         {menu_div ? (
-          <div className="alert carousel-fade navbar">
+          <div className="alert navbar position-fixed z-1">
             <NavItems className="d-inline-block"></NavItems>
           </div>
         ) : (

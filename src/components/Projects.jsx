@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
     <>
-      <div className="row">
+      <div className="row" id="projects">
         <h1 className="section_page">Projects</h1>
         <div className="col-lg-12 d-flex flex-wrap justify-content-around">
           <div

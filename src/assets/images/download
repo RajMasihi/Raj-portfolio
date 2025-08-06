@@ -1,0 +1,645 @@
+
+<html>
+
+<head>
+<title>mmit aligarh index</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- FontAwesome CSS -->
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+	<style>
+	*{
+		font-family: 'Open Sans';
+	}
+	.headerimg{
+		height:160px;
+		width:100%
+		
+	}
+	#myNavbar
+	{
+		padding-bottom:10px;
+		background:blue;
+		
+	}
+	
+	#menu
+	{
+	text-align:left;
+	}
+	#menu li{
+		display:block;
+		list-style:none;
+		color:white;
+	padding:10px;
+	
+	}
+	#menu li a
+	{
+		color:white;
+		text-decoration:none;
+		padding:10px;
+		margin:0px 20px 0px 10px;
+	}
+	#menu li a:hover
+	{
+		justify-content:left;
+	background:none;
+		color:yellow;
+		text-decoration:none;
+		padding:10px;
+		border-bottom:4px solid white;
+		
+		text-shadow:0px 0px 20px black;
+	}
+	#menu .active  a
+	{
+	
+		color:white;
+		background:none;
+		text-decoration:none;
+		border-bottom:5px solid white;
+		text-shadow:0px 0px 30px white;
+	}
+	#menu .dropdown-menu
+	{    width:border-box;
+		font-size:20px;
+		margin-top:7px;
+		background:black;
+		opacity:0.8;
+	}
+	
+	#menu .dropdown-menu li 
+	{
+		border-bottom:1px dotted red;
+		
+	}
+	#menu .dropdown-menu li a:hover
+	{
+		
+	background:none;
+	color:yellow;
+	text-shadow:0px 0px 10px white;
+	font-size:20px;
+	border-bottom:0px solid red;
+	
+	}
+	marquee{
+		
+		font-weight:bold;
+		letter-spacing:2px;
+		margin:0px;
+		font-size:20px;
+	}
+	
+	.mySlides{
+		height:50%; 
+		width:100%; 
+		border:3px solid green;
+	}
+	#mrow{
+       
+		padding:10px 5px 10px 1px;
+		background:white;
+		opacity:0.8; 
+		border-bottom:3px solid black;
+	}
+	
+	
+	
+	#principal{
+		width:100%;
+		height:200px;
+		border:2px solid green;
+	}
+	#nameh{
+		width:100%;
+		font-size:20px;
+		background:green;
+		padding:5px;
+		margin:0px;
+		color:white;
+		font-weight:bold;
+		text-align:center;
+	}
+	#namesir{
+		width:100%;
+		font-size:15px;
+		background:green;
+		padding:5px;
+		margin:0px;
+		color:white;
+		letter-spacing:1px;
+		font-weight:bold;
+		text-align:center;
+	}
+	
+
+	#messageh{
+		color:white;
+		text-align:center;
+		border-radius:0 50% 0 50%;
+		background:green;
+		font-weight:bold;
+		width:20%;
+		font-size:20px;
+		border-bottom:5px solid red;
+		padding:3px;
+	}
+	#message{
+		color:black;
+		font-size:20px;
+		text-align:justify;
+	}
+	#links{
+		padding:20px;
+		
+		
+	}
+	#linksh{
+		width:100%;
+		background:green;
+		text-align:center;
+		font-weight:bold;
+		font-size:20px;
+		color:white;
+		margin:0px;
+		padding:5px;
+	}
+	#footer1{
+		background:royalblue;
+		padding:10px;
+		opacity:1;
+	}
+	#footh{
+		font-size:25px;
+		font-weight:bold;
+		text-align:center;
+		color:white;
+		
+	}
+	#footc{
+		margin:0px;
+		font-size:18px;
+		text-align:center;
+		color:white;
+	}
+	#map{
+		width:100%;
+		height:300px;
+	}
+	
+	#footer{
+		padding:10px;
+		background:black;
+	}
+	#copy{
+		color:white;
+		text-align:center;
+		
+		font-size:20px;
+		text-shadow:0px 0px 20px white;
+	}
+	
+	@media only screen and (min-width:200px) and (max-width:767px) {
+		.headerimg
+		{
+			height:60px;
+		}
+		
+	#menu .dropdown-menu{
+	   width:40%;
+	   font-size:15px;
+	}
+	
+	
+	marquee{
+		letter-spacing:0.5px;
+		font-size:10px;
+	}
+	.mySlides{
+		height:20%;
+	}
+	.btn{
+		font-size:10px;
+	}
+	#mrow{
+		
+		display:flex;
+		}
+	
+    
+    #mrow #col-2{
+		width:40%;
+		
+	}
+	#mrow #col-10{
+
+	     float:left;
+		width:100%;
+		
+	}
+	#principal{
+		height:100px;
+	}
+	#message{
+		width:100%;
+		font-size:7px;
+	}
+	#messageh{
+		width:100%;
+		font-size:8px;
+		border-bottom:2px solid red;
+	}
+	#nameh{
+		font-size:8px;
+	}
+
+    #namesir{
+		font-size:7px;
+	}
+	#links{
+		display:flex;
+	}
+	#linksh{
+		width:100%;
+		
+		font-size:10px;
+		color:white;
+		padding:2px;
+	}
+	.table{
+		font-size:9px;
+	}
+	#footer1{
+		display:flex;
+	}
+	#footer1 #footercol{
+		margin:0px;
+		padding:0.2px;
+	}
+	#footh{
+		font-size:8px;
+	}
+	#footc{
+		margin:0px;
+		font-size:6px;
+	}
+	#map{
+		width:100%;
+		height:120px;
+		margin:0px;
+	}
+	#copy{
+		font-size:15px;
+		text-align:center;
+	}
+	
+	}
+	
+	@media only screen and (min-width:1001px) and (max-width:1220px) {
+		.headerimg
+		{
+			height:130px;
+		}
+		.mySlides{
+		height:45%; 
+		width:100%; 
+		border:3px solid green;}
+		
+	#mrow{
+		
+		display:flex;
+		}
+	
+    
+    #mrow #col-2{
+		width:40%;
+		
+	}
+	#mrow #col-10{
+
+	     float:left;
+		width:100%;
+		
+	}
+	#principal{
+		width:100%;
+		height:180px;
+	}
+	#message{
+		width:100%;
+		font-size:15px;
+	}
+	#messageh{
+		width:30%;
+		font-size:13px;
+		border-bottom:2px solid red;
+	}
+	#nameh{
+		font-size:10px;
+	}
+
+    #namesir{
+		font-size:9px;
+	}
+	#footer1{
+		display:flex;
+	}
+	#footer1 #footercol{
+		margin:0px;
+		padding:0.2px;
+	}
+	#footh{
+		font-size:15px;
+	}
+	#footc{
+		margin:0px;
+		font-size:12px;
+	}
+	#map{
+		width:100%;
+		height:200px;
+		margin:0px;
+	}
+	#copy{
+		font-size:18px;
+		text-align:center;
+	}
+	
+	}
+	
+	@media only screen and (min-width:768px) and (max-width:1000px) {
+		
+		.headerimg
+		{
+			height:80px;
+		}
+		
+		.mySlides{
+		height:40%; 
+		width:100%; 
+		border:3px solid green;}
+		
+		marquee{
+		
+		font-weight:bold;
+		letter-spacing:2px;
+		margin:0px;
+		font-size:15px;
+	}
+
+		
+	#mrow{
+		
+		display:flex;
+		}
+	
+    
+    #mrow #col-2{
+		width:40%;
+		
+	}
+	#mrow #col-10{
+
+	     float:left;
+		width:100%;
+		
+	}
+	#principal{
+		width:100%;
+		height:170px;
+	}
+	#message{
+		width:100%;
+		font-size:13px;
+	}
+	#messageh{
+		width:100%;
+		font-size:10px;
+		border-bottom:2px solid red;
+	}
+	#nameh{
+		font-size:8px;
+	}
+
+    #namesir{
+		font-size:7px;
+	}
+	#footer1{
+		display:flex;
+	}
+	#footer1 #footercol{
+		margin:0px;
+		padding:0.2px;
+	}
+	#footh{
+		font-size:10px;
+	}
+	#footc{
+		margin:0px;
+		font-size:8px;
+	}
+	#map{
+		width:100%;
+		height:150px;
+		margin:0px;
+	}
+	#copy{
+		font-size:18px;
+		text-align:center;
+	}
+	
+	
+	}
+	</style>
+	</head>
+	<body onload="slider()"1>
+	
+	<div class="container-fluid">
+	<div class="header" style="padding:0px 20px 0px 20px">
+	<div class="row">
+	<div class="col-xm-12">
+	<img src="images/mmit1.png" class="headerimg"/>
+	</div>
+	</div>
+	</div>
+	</div>
+	<!....menu...>
+	<nav class="navbar navbar-inverse" style="background:blue; margin-bottom:3px; color:white; font-weight:bold; border:none ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar" style="padding-left:0%">
+      <ul class=" navbar-nav" id="menu">
+        <li class="active"><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+		<li class="li1"><a href="about.php">About college</a></li>
+		<li class="li1"><a href="faculty.php">Faculty</a></li>
+		<li class="li1"><a href="contact.php">Contact us</a></li>
+		<li class="li1"><a href="institute.php">Institute Profile</a></li>
+		<li class="li1"><a href="login.php">Login</a></li>
+		<li class="li1"><a href="registration.php">Registration</a></li>
+		<li class="li1"><a href="news.php">News</a></li>
+		<li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Toppers <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="studytopers.php">Study Toppers</a></li>
+            <li><a href="gamestopers.php">Games Toppers</a></li>
+          </ul>
+        </li>
+       <li class="li1"><a href="gellery.php">Gellery</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+<div class="row" >
+<marquee  onmouseover="stop()" onmouseout="start()">MAHAMAYA POLYTECHNIC OF INFORMATION TECHNOLOGY ALIGARH, UTTAR PRADESH</marquee>
+</div>
+<div class="row">
+<div class="w3-content w3-section" style="width:100%">
+  <img class="mySlides" src="images/mpic1.jpg">
+  <img class="mySlides" src="images/mpic2.jpg">
+  <img class="mySlides" src="images/mpic3.jpg">
+  <img class="mySlides" src="images/7.jpg">
+  <img class="mySlides" src="images/6.jpg">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 1500); // Change image every 2 seconds
+}
+</script>
+
+
+</div>
+<div class="row" id="mrow">
+<div class="col-sm-2" id="col-2">
+<?php
+include 'gellery/database.php';
+$obj=new cammands();
+$select=$obj->select_data('principal');
+foreach($select as $list)
+{
+	$name=$list['name'];
+	$image=$list['profile'];
+	echo"<p id='nameh'>Mr:$name</P>";
+echo"<img src='principal/images/$image' id='principal'>";
+echo"<p id='namesir'>(Principal Sir)</P>";
+}
+
+?>
+</div>
+
+<div class="col-sm-10" id="col-10">
+<p id="messageh">Principal message</P>
+<p id="message">Mahamaya Polytechnic For Information Technology will train the young generation to view life holistically,
+creatively and philosophically, face challenges in life with a positive attitude, develop skills in responding emergencies, Promote social and environmental awareness and live a better and a meaningful life through self actualization.
+The teaching methodologies at MMIT are equipped with life skills that will enable them to resist materialism, manage imbalance of life successfully and develop appreciation for nature both external and internal.
+Then and then only if it is possible to expose our children to wisdom and creativity and so that they sustain our ancient culture.
+To conclude all I would like to say is that your child is gift from God to you now let us together make the child worthy and this will be our best gift to God.</p>
+</div>
+</div>
+
+<div class="row" id="mrow">
+<div class="col-sm-2" id="col-2">
+<p id="nameh">Mr:SUNIL KUMAR</P>
+
+<img src="images/sunilsir.jpg" id="principal">
+<p id="namesir">(TPO Sir)</P>
+</div>
+
+<div class="col-sm-10"id="col-10">
+<p id="messageh">TPO message</P>
+<p id="message">The Training and Placement Cell is one of the integral part of our college. Training & Placement activities are
+organized throughout the year with a view to prepare the students to appear the campus recruitment process with confidence. The first year engineering students are encouraged to participate in various competetions such as debate, group discussion, power point presentation, essay writing etc. in order to enhance their confidence, reading, writing and communication skills. Students of second year engineering are trained on basic language skills in the well developed Language laboratories of the institute. To prepare and train aspiring learners to face campus recruitment, the third year engineering students are provided with exhaustive training with relevance to communication skills, aptitude test and overall development for personal & professional grooming. These training programs give the students tips on how to crack aptitude, group discussion, interview skills and resume preparation.</p>
+</div>
+</div>
+<div class="row" id="links">
+<div class="col-sm-4" style="text-align:center">
+<p id="linksh">Use Full Weblinks</p>
+<a href="http://irdt.up.nic.in/"><span>IRDTUP</span></a>
+<br/>
+<a href="http://dte.up.nic.in/"><span>DTEUP</span></a>
+<br/>
+<a href="http://bteup.ac.in/webapp/default.aspx"><span>BTEUP</span></a>
+<br/>
+<a href="https://www.aicte-india.org/"><span>AICTE India</span></a>
+<br/>
+<a href="https://aktu.ac.in/"><span>AKTU</span></a>
+<br/>
+<a href="https://jeecup.nic.in/cms/public/home.aspx&quot;"> <span>JEECUP</span></a>
+<br/>
+<a href="http://scholarship.up.nic.in"> <span>SCHOLARSHIP</span></a>
+</div>
+<div class="col-sm-8">
+<p id="linksh">Download Segment</p>
+<table class="table table-responsive">
+<tbody>
+<tr>
+<td> Admission form for first year students and second year only for lateral entry students	</td>
+<td> <a class="btn btn-success" href="images/admisionfrm.pdf">Download</a> </td>
+</tr>
+
+<tr>
+<td> Fee Structure	</td>
+<td> <a class="btn btn-success" href="images/FeeGo.pdf">Download</a> </td>
+</tr>
+
+<tr>
+<td> Document required at the time of admission</td>
+<td> <a class="btn btn-success" href="images/documents.pdf">Download</a> </td>
+</tr>
+<tbody>
+</table>
+</div>
+</div>
+<div class="row" id="footer1">
+<div class="col-sm-4"id="footercol">
+<p id="footh">Opportunity Indian Forces</p>
+<p id="footc">There are several recruitment process held by security forces such as Indian
+<br/>Army
+<br/>Navy
+<br/>BSF
+<br/>CRPF
+<br/>demands the students from Diploma courses.</p>
+</div>
+<div class="col-sm-4" id="footercol">
+<p id="footh">Address</p>
+<p id="footc">M.M.I.T, Aligarh 8 Km mile stone, Aligarh-Mathura Road Post. Ahmadpur,Near C.B Gupta School, Aligarh-202002 (U.P) INDIA</p>
+<p id="footc">Contact Us : TEL: +91-571-2975049 </p>
+<p id="footc"> E-mail: mmitaligarh@gmail.com,tpoaligarh@gmail.com </p>
+<p id="footc">Website:<a href="www.mmitaligarh.com" style="color:pink">mmitaligarh.in </a></p>
+</div>
+<div class="col-sm-4" id="footercol">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225817.99314541623!2d77.89750351608117!3d27.828044882742084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974a3cb91b7e6b7%3A0xe4fe2007872fe582!2sMahamaya%20Polytechnic!5e0!3m2!1sen!2sin!4v1600281010123!5m2!1sen!2sin" id="map" frameborder="0" style="border:0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+</div>
+<div class="row" id="footer">
+<p id="copy">Copyright @by MMIT Aligarh '& <br/><a href="Students.php" style="color:aqua"> Students</a></p>
+</div>
+</div>
+</div>
+
+	</body>
+	</html>

@@ -16,7 +16,7 @@ const NavItems = () => {
         Education
       </a>
 
-      <a href="" className="nav_item">
+      <a href="#projects" className="nav_item">
         Projects
       </a>
       <a href="" className="nav_item">
