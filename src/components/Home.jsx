@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, Suspense, lazy } from "react";
 import rajpic from "../assets/images/raj_figma2.png";
 import Typed from "typed.js";
 import Social from "./Social";
