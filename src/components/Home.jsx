@@ -44,7 +44,8 @@ const Home = () => {
               data-aos-duration="1000"
               data-aos-mirror="false"
             >
-              Full stack developer DevOps engineer
+              Full stack developer
+              <br /> DevOps engineer
             </h2>
             <div
               className="d-flex justify-content-around mx-lg-1"
