@@ -21,5 +21,5 @@ jobs:
           docker pull ${{secrets.DOCKER_USERNAME}}/portfolio-react-app &&
           docker stop app || true
           docker rm app || true
-          docker run -d -p 80:3000 --name app ${{secrets.DOCKER_USERNAME}}/portfolio-react-app
+          docker run -d -p 80:80 --name app ${{secrets.DOCKER_USERNAME}}/portfolio-react-app
           EOF
